@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"><link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./css/core.min.css">
+		<link rel="stylesheet" href="./css/main.min.css">
+		<title>Thức uống</title>
+	</head>
+	<body class="about-page">
+		<header>
+			<div class="top-header-wrapper">
+				<div class="uk-container">
+					<div class="top-header uk-flex">
+						<div class="logo"><a href="#"><img src="./img/logo.png" alt=""></a></div>
+						<div class="search-wrapper">
+							<div class="uk-search uk-search-default">
+								<input class="uk-search-input" type="text" placeholder="Nhập từ khóa tìm kiếm">
+								<button><span class="mdi mdi-magnify"></span></button>
+							</div>
+						</div>
+						<div class="top-header-item-list">
+							<div class="top-header-item"><a class="top-header-link" href="#"><span class="lnr lnr-pencil"></span><span class="text">
+										 Kiểm tra <br>đơn hàng</span></a></div>
+							<div class="top-header-item"><a class="top-header-link" href="#"><span class="lnr lnr-phone-handset"></span><span class="text">
+										 Tổng đài<br>09082328042  </span></a></div>
+							<div class="top-header-item"><a class="top-header-link" href="#"><span class="lnr lnr-user"></span><span class="text">
+										 Đăng nhập<br>tài khoản</span></a></div>
+							<div class="top-header-item language-wrapper">
+								<div class="language"><a class="current" href="#"> <span>VN</span><span class="lnr lnr-chevron-down"></span></a>
+									<div class="uk-dropdown" uk-dropdown="">
+										<ul class="uk-nav">
+											<li><a href="#">EN</a></li>
+											<li><a href="#">JP</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cart-wrapper">
+							<div class="cart">
+								<div class="cart-toggle"> 
+									<div class="icon"><span class="mdi mdi-cart"></span></div>
+									<div class="cart-text"><span class="text">Giỏ hàng </span><span>(<span class="amount">5</span>)</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-header-wrapper">
+				<div class="uk-container">
+					<div class="bottom-header uk-flex">
+						<div class="product-category-wrapper">
+							<div class="product-category"><a class="toggle" href="#">Danh mục sản phẩm</a>
+								<div class="uk-dropdown" uk-dropdown="offset: 0; ">
+									<ul class="uk-nav">
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/1.png" alt=""></div>
+												<div class="text">Đặc sản </div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/2.png" alt=""></div>
+												<div class="text">Các loại thịt</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/3.png" alt=""></div>
+												<div class="text">Đồ khô</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/4.png" alt=""></div>
+												<div class="text">Gia vị</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/5.png" alt=""></div>
+												<div class="text">Rau - Củ quả</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/6.png" alt=""></div>
+												<div class="text">Thức uống</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/7.png" alt=""></div>
+												<div class="text">Sản phẩm khác</div></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="menu-wrapper">
+							<div class="menu">
+								<ul class="uk-navbar-nav">
+									<li><a href="#">Danh mục dịch vụ</a></li>
+									<li><a href="#">Giới thiệu</a></li>
+									<li><a href="#">Khuyến mãi</a></li>
+									<li><a href="#">Hệ thống cửa hàng</a></li>
+									<li><a href="#">Video nấu ăn nhanh</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="dropdown-menu-wrapper">
+							<div class="dropdown-menu"><a class="toggle" href="#"><span class="mdi mdi-format-list-bulleted-square"></span></a>
+								<div class="uk-dropdown" uk-dropdown="offset: 0; pos: bottom-right">
+									<ul class="uk-nav">
+										<li><a href="#">Tin tức & Sự kiện</a></li>
+										<li><a href="#">Hỗ trợ khách hàng</a></li>
+										<li><a href="#">Tuyển dụng</a></li>
+										<li><a href="#">Liên hệ</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="banner-section-wrapper">
+				<div class="uk-container">
+					<div class="banner-wrapper">
+						<div class="banner"><img src="./img/banner/sanpham.jpg" alt=""></div>
+					</div>
+					<div class="breadcrumb-wrapper">
+						<ol class="breadcrumb">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Sản Phẩm</a></li>
+							<li><a href="#">Thức uống</a></li>
+						</ol>
+					</div>
+				</div>
+			</section>
+			<section class="product-category-section product-category-section__1">
+				<div class="uk-container">
+					<div class="category-title">
+						<h2 class="section-title">Bia, nước ngọt, cafe</h2><a class="view-more" href="#">Xem tất cả</a>
+					</div>
+					<div class="product-list">
+						<ul class="category-tab-wrap" uk-switcher=""> 
+							<li><a href="javascript:void(0)">Sản phẩm mới</a></li>
+							<li><a href="javascript:void(0)">Bán chạy</a></li>
+							<li><a href="javascript:void(0)">Khuyến mãi</a></li>
+						</ul>
+						<div class="uk-switcher">
+							<div class="tab-content">
+								<div class="uk-grid uk-grid-collapse uk-grid-match uk-child-width-1-5@xl uk-child-width-1-4@l uk-child-width-1-3@s uk-child-width-1-2">
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/1.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Bia 333</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 350</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/2.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Bia Heineken</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 400</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/3.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Bia Sài Gòn</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 400</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/4.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Bò Húc</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 350</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/5.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Cà phê G7</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 600</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/6.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Cà phê Nét Việt (hòa tan)</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 850</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/7.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Cà phê pha phin Trung Nguyên (500 g)</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 150</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/8.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Nước bí đao</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 500</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/9.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Sting</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 450</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/drink/10.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Sữa ông Thọ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 400</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-content"></div>
+							<div class="tab-content"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="product-category-section product-category-section__2">
+				<div class="uk-container">
+					<div class="category-title">
+						<h2 class="section-title">Thuốc lá</h2><a class="view-more" href="#">Xem tất cả</a>
+					</div>
+					<div class="product-list">
+						<ul class="category-tab-wrap" uk-switcher=""> 
+							<li><a href="javascript:void(0)">Sản phẩm mới</a></li>
+							<li><a href="javascript:void(0)">Bán chạy</a></li>
+							<li><a href="javascript:void(0)">Khuyến mãi</a></li>
+						</ul>
+						<div class="uk-switcher">
+							<div class="tab-content">
+								<div class="uk-grid uk-grid-collapse uk-grid-match uk-child-width-1-5@xl uk-child-width-1-4@l uk-child-width-1-3@s uk-child-width-1-2">
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/1.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá 555 gói lẽ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 350</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/2.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá Caraven gói lẽ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 400</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/3.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá Malbro gói lẽ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 400</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/4.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thăng Long gói lẻ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 350</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/5.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá Vinataba</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 600</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/6.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá con ngựa gói lẽ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 450</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/1.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá 555 gói lẽ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 350</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/2.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá Caraven gói lẽ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 400</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/3.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thuốc lá Malbro gói lẽ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 400</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapper">
+										<div class="product product-col">
+											<div class="img"><a href="#"><img src="./img/product/cigar/4.jpg" alt=""></a></div>
+											<div class="purchase-button">
+												<div class="input-amount"><a class="btn-dec" href="#">-</a>
+													<input class="amount" type="text" value="0"><a class="btn-inc" href="#">+</a>
+												</div><a class="btn-addtocart" href="#">Mua ngay</a>
+											</div>
+											<div class="title"><a href="#">Thăng Long gói lẻ</a></div>
+											<div class="caption">
+												<div class="purchase-wrapper uk-flex-middle">
+													<div class="price-wrapper"><strong class="price">¥ 350</strong>
+														<div class="oldprice">
+															<del>¥ 1.800 </del><strong>-15%</strong>
+														</div>
+													</div>
+													<div class="buy-button"><a class="add-wishlist" href="#"><span class="mdi mdi-heart-outline"></span><span class="amount">(100)</span></a><a class="toggle-buy" href="#"><span class="mdi mdi-cart"></span></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-content"></div>
+							<div class="tab-content"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-top-wrapper">
+				<div class="uk-container">
+					<div class="uk-grid uk-grid-collapse uk-grid-match uk-child-width-1-6@l uk-child-width-1-3@s uk-child-width-1-2" uk-grid="">
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/1.png" alt=""></div>
+								<div class="title">Khuyến mãi giá sỉ</div>
+								<div class="desc">Chúng tôi cung cấp giá cả cạnh tranh khi mua nhiều sản phẩm</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/2.png" alt=""></div>
+								<div class="title">Giao hàng miễn phí</div>
+								<div class="desc">Giao hàng miễn phí với hoá đơn trên 300.000 đ</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/3.png" alt=""></div>
+								<div class="title">Thanh toán an toàn</div>
+								<div class="desc">Bằng các phương thức thanh toán phổ biến và an toàn nhất thế giới</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/4.png" alt=""></div>
+								<div class="title">Tự tin mua sắm</div>
+								<div class="desc">Bảo vệ người mua hàng từ lúc nhấp chuột đến khi nhận hàng</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/5.png" alt=""></div>
+								<div class="title">Trợ giúp 24/7</div>
+								<div class="desc">Chúng tôi hỗ trợ 24/7 cho trải nghiệm mua sắm của bạn thật nhẹ nhàng</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/6.png" alt=""></div>
+								<div class="title">Sản phẩm chất lượng</div>
+								<div class="desc">Tất cả sản phẩm đều có chứng nhận an toàn vệ sinh</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-middle-wrapper">
+				<div class="uk-container">
+					<div class="uk-grid" uk-grid="">
+						<div class="wrapper uk-width-2-5@l">
+							<div class="subscribe-title">
+								<div class="icon"><img src="./img/icon/footer/subscribe.png" alt=""></div>
+								<div class="title"><strong>Đăng ký nhận bản tin</strong>
+									<p>Đăng ký ngay để nhận thông tin khuyến mãi mới nhất</p>
+								</div>
+							</div>
+						</div>
+						<div class="wrapper uk-width-3-5@l">
+							<div class="subscribe">
+								<div class="subscribefrm">
+									<input type="text" placeholder="Nhập Email">
+									<button>Đăng ký</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom-wrapper">
+				<div class="uk-container">
+					<div class="uk-grid uk-child-width-1-4@l uk-child-width-1-2@s" uk-grid="">
+						<div class="wrapper">
+							<div class="footer-info">
+								<div class="footer-title">Công ty Ekago</div>
+								<ul>
+									<li><span class="mdi mdi-map-marker"></span>329-2705 Japan, Tochigi ken, Nasushiobara shi, Miruteiyu B105</li>
+									<li><span class="mdi mdi-phone"></span>+81 90-8232-8042  </li>
+									<li><span class="mdi mdi-fax"></span>027-35-8042</li>
+									<li><span class="mdi mdi-email"></span>contact@ekago.jp  </li>
+								</ul>
+								<div class="footer-social"><a href="#"><img src="./img/icon/social/fb.png" alt=""></a><a href="#"><img src="./img/icon/social/zalo.png" alt=""></a><a href="#"><img src="./img/icon/social/pin.png" alt=""></a><a href="#"><img src="./img/icon/social/yt.png" alt=""></a><a href="#"><img src="./img/icon/social/tik.png" alt=""></a><a href="#"><img src="./img/icon/social/tw.png" alt=""></a></div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="footer-link">
+								<div class="footer-title">Giới thiệu</div>
+								<ul>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Tổng quan</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Lịch sử phát triển</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Tầm nhìn - Sứ mệnh</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Ban lãnh đạo</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Đội ngũ nhân sự</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Câu chuyện thương hiệu</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Đối tác</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="footer-link">
+								<div class="footer-title">Giới thiệu</div>
+								<ul>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Cuộc sống tại EKAGO</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Văn hóa doanh nghiệp</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Quy trình tuyển dụng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Vị trí tuyển dụng</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="footer-link">
+								<div class="footer-title">Hỗ trợ khách hàng</div>
+								<ul>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Chính sách bảo mật</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Hướng dẫn mua hàng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Phương thức giao hàng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Thời gian giao hàng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Bảng giá cước phí vận chuyển</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Quy định đổi trả</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Hỏi đáp</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright-wrapper">
+				<div class="uk-container">
+					<div class="copyright-wrapper">
+						<div class="copyright">
+							<p>© 2020 Ekago. All Rights Reserved.</p>
+						</div>
+						<div class="payment"><span>Thanh toán</span><img src="./img/payment.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/core.min.js"></script>
+		<script src="./js/main.min.js"></script>
+	</body>
+</html>

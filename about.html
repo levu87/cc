@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"><link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./css/core.min.css">
+		<link rel="stylesheet" href="./css/main.min.css">
+		<title>About</title>
+	</head>
+	<body class="about-page">
+		<header>
+			<div class="top-header-wrapper">
+				<div class="uk-container">
+					<div class="top-header uk-flex">
+						<div class="logo"><a href="#"><img src="./img/logo.png" alt=""></a></div>
+						<div class="search-wrapper">
+							<div class="uk-search uk-search-default">
+								<input class="uk-search-input" type="text" placeholder="Nhập từ khóa tìm kiếm">
+								<button><span class="mdi mdi-magnify"></span></button>
+							</div>
+						</div>
+						<div class="top-header-item-list">
+							<div class="top-header-item"><a class="top-header-link" href="#"><span class="lnr lnr-pencil"></span><span class="text">
+										 Kiểm tra <br>đơn hàng</span></a></div>
+							<div class="top-header-item"><a class="top-header-link" href="#"><span class="lnr lnr-phone-handset"></span><span class="text">
+										 Tổng đài<br>09082328042  </span></a></div>
+							<div class="top-header-item"><a class="top-header-link" href="#"><span class="lnr lnr-user"></span><span class="text">
+										 Đăng nhập<br>tài khoản</span></a></div>
+							<div class="top-header-item language-wrapper">
+								<div class="language"><a class="current" href="#"> <span>VN</span><span class="lnr lnr-chevron-down"></span></a>
+									<div class="uk-dropdown" uk-dropdown="">
+										<ul class="uk-nav">
+											<li><a href="#">EN</a></li>
+											<li><a href="#">JP</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cart-wrapper">
+							<div class="cart">
+								<div class="cart-toggle"> 
+									<div class="icon"><span class="mdi mdi-cart"></span></div>
+									<div class="cart-text"><span class="text">Giỏ hàng </span><span>(<span class="amount">5</span>)</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-header-wrapper">
+				<div class="uk-container">
+					<div class="bottom-header uk-flex">
+						<div class="product-category-wrapper">
+							<div class="product-category"><a class="toggle" href="#">Danh mục sản phẩm</a>
+								<div class="uk-dropdown" uk-dropdown="offset: 0; ">
+									<ul class="uk-nav">
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/1.png" alt=""></div>
+												<div class="text">Đặc sản </div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/2.png" alt=""></div>
+												<div class="text">Các loại thịt</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/3.png" alt=""></div>
+												<div class="text">Đồ khô</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/4.png" alt=""></div>
+												<div class="text">Gia vị</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/5.png" alt=""></div>
+												<div class="text">Rau - Củ quả</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/6.png" alt=""></div>
+												<div class="text">Thức uống</div></a></li>
+										<li><a href="#">
+												<div class="icon"><img src="./img/icon/7.png" alt=""></div>
+												<div class="text">Sản phẩm khác</div></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="menu-wrapper">
+							<div class="menu">
+								<ul class="uk-navbar-nav">
+									<li><a href="#">Danh mục dịch vụ</a></li>
+									<li><a href="#">Giới thiệu</a></li>
+									<li><a href="#">Khuyến mãi</a></li>
+									<li><a href="#">Hệ thống cửa hàng</a></li>
+									<li><a href="#">Video nấu ăn nhanh</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="dropdown-menu-wrapper">
+							<div class="dropdown-menu"><a class="toggle" href="#"><span class="mdi mdi-format-list-bulleted-square"></span></a>
+								<div class="uk-dropdown" uk-dropdown="offset: 0; pos: bottom-right">
+									<ul class="uk-nav">
+										<li><a href="#">Tin tức & Sự kiện</a></li>
+										<li><a href="#">Hỗ trợ khách hàng</a></li>
+										<li><a href="#">Tuyển dụng</a></li>
+										<li><a href="#">Liên hệ</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="banner-section-wrapper">
+				<div class="uk-container">
+					<div class="banner-wrapper">
+						<div class="banner"><img src="./img/banner/1.jpg" alt=""></div>
+					</div>
+					<div class="breadcrumb-wrapper">
+						<ol class="breadcrumb">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+						</ol>
+					</div>
+				</div>
+			</section>
+			<nav class="about-nav">
+				<div class="uk-container">
+					<div class="subnav-wrapper">
+						<ul class="subnav">
+							<li class="active"><a href="#">Tổng quan</a></li>
+							<li><a href="#">Lịch sử phát triển</a></li>
+							<li><a href="#">Tầm nhìn - Sứ mệnh - Giá trị cốt lõi</a></li>
+							<li><a href="#">Đội ngũ nhân sự</a></li>
+							<li><a href="#">Đối tác</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<section class="about-1 uk-section">
+				<div class="uk-container">
+					<h1 class="section-title uk-text-center">Tổng quan</h1>
+					<div class="uk-grid uk-child-width-1-2@l" uk-grid="">
+						<div class="wrapper">
+							<div class="img uk-text-center"><img src="./img/about/1.png" alt=""></div>
+						</div>
+						<div class="wrapper">
+							<div class="text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-2 uk-section">
+				<div class="uk-container">
+					<h2 class="section-title uk-text-center">Lịch sử phát triển</h2>
+					<div class="year-dot-slider uk-width-2-3@l uk-margin-auto">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2012</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2013</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2014</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2015</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2016</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2017</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2018</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2019</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="year">
+										<div class="text">2020</div>
+										<div class="dot"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-nav">
+							<div class="swiper-button swiper-prev"><span class="mdi mdi-chevron-left"></span></div>
+							<div class="swiper-button swiper-next"><span class="mdi mdi-chevron-right"></span></div>
+						</div>
+					</div>
+					<div class="year-content-slider">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item uk-grid uk-flex-middle uk-child-width-1-2@l" uk-grid="">
+										<div class="wrapper">
+											<div class="img"><img src="./img/about/2.jpg" alt=""></div>
+										</div>
+										<div class="wrapper">
+											<div class="text">
+												<div class="section-title section-title-red">2012</div>
+												<div class="content">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-3 uk-section">
+				<div class="uk-container">
+					<h2 class="section-title uk-text-center">Tầm nhìn - sứ mệnh</h2>
+					<div class="item uk-grid uk-grid-collapse uk-child-width-1-2@l" uk-grid="">
+						<div class="wrapper">
+							<div class="img"><img src="./img/about/3.jpg" alt=""></div>
+						</div>
+						<div class="wrapper">
+							<div class="content">
+								<div class="title">Tầm nhìn</div>
+								<div class="text">
+									<p>Chúng tôi muốn chia sẻ và kết nối anh em cộng đồng người Việt nhằm tạo ra một nơi giao lưu, học hỏi và chia sẻ những kinh nghiệm sống cũng như văn hoá của người Việt Nam, đặc biệt là văn hoá ẩm thực cho anh chị em người Nhật Bản.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item uk-grid uk-grid-collapse uk-child-width-1-2@l" uk-grid="">
+						<div class="wrapper">
+							<div class="img"><img src="./img/about/4.jpg" alt=""></div>
+						</div>
+						<div class="wrapper">
+							<div class="content">
+								<div class="title">Sứ mệnh</div>
+								<div class="text">
+									<p>Chúng tôi muốn chia sẻ và kết nối anh em cộng đồng người Việt nhằm tạo ra một nơi giao lưu, học hỏi và chia sẻ những kinh nghiệm sống cũng như văn hoá của người Việt Nam, đặc biệt là văn hoá ẩm thực cho anh chị em người Nhật Bản.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-4 uk-section">
+				<div class="uk-container">
+					<h2 class="section-title uk-text-center">Đội ngũ nhân sự</h2>
+					<div class="uk-grid" uk-grid="">
+						<div class="wrapper uk-width-1-1">
+							<div class="item">
+								<div class="img"><img src="./img/about/5.jpg" alt=""></div>
+								<div class="name"> <strong>Chu Đức Thắng</strong></div>
+								<div class="title">Giám đốc</div>
+							</div>
+						</div>
+						<div class="wrapper uk-width-1-1">
+							<div class="item">
+								<div class="img"><img src="./img/about/5.jpg" alt=""></div>
+								<div class="name"> <strong>Chu Đức Thắng</strong></div>
+								<div class="title">Giám đốc</div>
+							</div>
+						</div>
+						<div class="wrapper uk-width-1-3@m">
+							<div class="item">
+								<div class="img"><img src="./img/about/5.jpg" alt=""></div>
+								<div class="name"> <strong>Chu Đức Thắng</strong></div>
+								<div class="title">Giám đốc</div>
+							</div>
+						</div>
+						<div class="wrapper uk-width-1-3@m">
+							<div class="item">
+								<div class="img"><img src="./img/about/5.jpg" alt=""></div>
+								<div class="name"> <strong>Chu Đức Thắng</strong></div>
+								<div class="title">Giám đốc</div>
+							</div>
+						</div>
+						<div class="wrapper uk-width-1-3@m">
+							<div class="item">
+								<div class="img"><img src="./img/about/5.jpg" alt=""></div>
+								<div class="name"> <strong>Chu Đức Thắng</strong></div>
+								<div class="title">Giám đốc</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="home-5">
+				<div class="uk-container">
+					<h2 class="section-title">Đối tác</h2>
+					<div class="partner-slider uk-position-relative">
+						<div uk-slider="autoplay: true; autoplay-interval: 2500">
+							<ul class="uk-slider-items uk-grid uk-child-width-1-5@l uk-child-width-1-4@m uk-child-width-1-3@s uk-child-width-1-2">
+								<li><a class="img" href="#"><img src="./img/logo/1.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/2.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/3.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/4.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/5.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/1.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/2.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/3.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/4.png" alt=""></a></li>
+								<li><a class="img" href="#"><img src="./img/logo/5.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-top-wrapper">
+				<div class="uk-container">
+					<div class="uk-grid uk-grid-collapse uk-grid-match uk-child-width-1-6@l uk-child-width-1-3@s uk-child-width-1-2" uk-grid="">
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/1.png" alt=""></div>
+								<div class="title">Khuyến mãi giá sỉ</div>
+								<div class="desc">Chúng tôi cung cấp giá cả cạnh tranh khi mua nhiều sản phẩm</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/2.png" alt=""></div>
+								<div class="title">Giao hàng miễn phí</div>
+								<div class="desc">Giao hàng miễn phí với hoá đơn trên 300.000 đ</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/3.png" alt=""></div>
+								<div class="title">Thanh toán an toàn</div>
+								<div class="desc">Bằng các phương thức thanh toán phổ biến và an toàn nhất thế giới</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/4.png" alt=""></div>
+								<div class="title">Tự tin mua sắm</div>
+								<div class="desc">Bảo vệ người mua hàng từ lúc nhấp chuột đến khi nhận hàng</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/5.png" alt=""></div>
+								<div class="title">Trợ giúp 24/7</div>
+								<div class="desc">Chúng tôi hỗ trợ 24/7 cho trải nghiệm mua sắm của bạn thật nhẹ nhàng</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="item">
+								<div class="icon"><img src="./img/icon/footer/6.png" alt=""></div>
+								<div class="title">Sản phẩm chất lượng</div>
+								<div class="desc">Tất cả sản phẩm đều có chứng nhận an toàn vệ sinh</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-middle-wrapper">
+				<div class="uk-container">
+					<div class="uk-grid" uk-grid="">
+						<div class="wrapper uk-width-2-5@l">
+							<div class="subscribe-title">
+								<div class="icon"><img src="./img/icon/footer/subscribe.png" alt=""></div>
+								<div class="title"><strong>Đăng ký nhận bản tin</strong>
+									<p>Đăng ký ngay để nhận thông tin khuyến mãi mới nhất</p>
+								</div>
+							</div>
+						</div>
+						<div class="wrapper uk-width-3-5@l">
+							<div class="subscribe">
+								<div class="subscribefrm">
+									<input type="text" placeholder="Nhập Email">
+									<button>Đăng ký</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom-wrapper">
+				<div class="uk-container">
+					<div class="uk-grid uk-child-width-1-4@l uk-child-width-1-2@s" uk-grid="">
+						<div class="wrapper">
+							<div class="footer-info">
+								<div class="footer-title">Công ty Ekago</div>
+								<ul>
+									<li><span class="mdi mdi-map-marker"></span>329-2705 Japan, Tochigi ken, Nasushiobara shi, Miruteiyu B105</li>
+									<li><span class="mdi mdi-phone"></span>+81 90-8232-8042  </li>
+									<li><span class="mdi mdi-fax"></span>027-35-8042</li>
+									<li><span class="mdi mdi-email"></span>contact@ekago.jp  </li>
+								</ul>
+								<div class="footer-social"><a href="#"><img src="./img/icon/social/fb.png" alt=""></a><a href="#"><img src="./img/icon/social/zalo.png" alt=""></a><a href="#"><img src="./img/icon/social/pin.png" alt=""></a><a href="#"><img src="./img/icon/social/yt.png" alt=""></a><a href="#"><img src="./img/icon/social/tik.png" alt=""></a><a href="#"><img src="./img/icon/social/tw.png" alt=""></a></div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="footer-link">
+								<div class="footer-title">Giới thiệu</div>
+								<ul>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Tổng quan</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Lịch sử phát triển</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Tầm nhìn - Sứ mệnh</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Ban lãnh đạo</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Đội ngũ nhân sự</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Câu chuyện thương hiệu</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Đối tác</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="footer-link">
+								<div class="footer-title">Giới thiệu</div>
+								<ul>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Cuộc sống tại EKAGO</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Văn hóa doanh nghiệp</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Quy trình tuyển dụng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Vị trí tuyển dụng</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="footer-link">
+								<div class="footer-title">Hỗ trợ khách hàng</div>
+								<ul>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Chính sách bảo mật</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Hướng dẫn mua hàng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Phương thức giao hàng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Thời gian giao hàng</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Bảng giá cước phí vận chuyển</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Quy định đổi trả</a></li>
+									<li> <a href="#"> <span class="mdi mdi-chevron-right"></span>Hỏi đáp</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright-wrapper">
+				<div class="uk-container">
+					<div class="copyright-wrapper">
+						<div class="copyright">
+							<p>© 2020 Ekago. All Rights Reserved.</p>
+						</div>
+						<div class="payment"><span>Thanh toán</span><img src="./img/payment.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/core.min.js"></script>
+		<script src="./js/main.min.js"></script>
+	</body>
+</html>
